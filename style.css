@@ -1,12 +1,7 @@
-:root {
-  --link-color: red;
-  --paragraph-font-size: 24px;
-}
-
 a[href^="https"] {
-  color: var(--link-color);
+  color: red;
 }
 
 ul + p {
-  font-size: var(--paragraph-font-size);
+  font-size: 24px;
 }
